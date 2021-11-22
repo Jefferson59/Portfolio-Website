@@ -1,5 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: "url(empty street.jpg) no-repeat";
+    background-size: cover;
+  }
+  
+  .box{
+    width: 450px;
+    background: url(halaman.jpg);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: black;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color: white;
+  }
+  
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: white;
+  }
+  
+  .content{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+  
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +62,7 @@ html{
 }
 
 body{
-    background: url("images/leaves_bushes_green_174515_3840x2400.jpg") no-repeat center;
+    background: url("images/JEpoy.png") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -26,6 +77,45 @@ body{
 }
 
 
+  .box{
+    width: 450px;
+    background: url(halaman.jpg);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: black;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    color: white;
+  }
+  
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: white;
+  }
+  
+  .content{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+  
 .navbar {
     position: fixed;
     width: 100%;
@@ -132,7 +222,7 @@ body{
 
 .home {
     display: flex;
-    background: url("images/leaves_bushes_green_174515_3840x2400.jpg") no-repeat center;
+    background: url("images/JEpoy.png") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -215,7 +305,7 @@ section .title::after{
 }
 /* about section styling */
 .about{
-    background: url("images/leaves_bushes_green_174515_3840x2400.jpg");
+    background: url("images/Jeps.png");
     background-size: 2000px;
 }
 .about .title::after{
@@ -274,7 +364,7 @@ section .title::after{
  .services{
      color: white;
      background:black;
-     background: url("images/leaves_bushes_green_174515_3840x2400.jpg");
+     background: url("images/Black.png");
      background-size: 2000px;
  }
  .services .title::before{
@@ -319,7 +409,7 @@ section .title::after{
 /* Skills Section Styling */
 
 .skills{
-    background: url("images/leaves_bushes_green_174515_3840x2400.jpg");
+    background: url("images/Black.png");
     background-size: 2000px;
 }
 
